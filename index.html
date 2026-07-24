@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#060913">
+  <title>Google AI Hub - Enterprise Ecosystem</title>
+  <meta name="description" content="Official Google AI Hub cataloging all 54 Google AI foundation models, developer IDEs, DeepMind scientific research units, and cloud infrastructure platforms across thematic subparts.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- GOOGLE QUAD-COLOR LIQUID GLASS MOVING MESH BACKGROUND -->
+  <div class="liquid-mesh-background" aria-hidden="true">
+    <div class="liquid-blob blob-blue"></div>
+    <div class="liquid-blob blob-red"></div>
+    <div class="liquid-blob blob-yellow"></div>
+    <div class="liquid-blob blob-green"></div>
+  </div>
+
+  <!-- Subtle Grid Overlay -->
+  <div class="matrix-grid-overlay" aria-hidden="true"></div>
+
+  <!-- Main Application Container -->
+  <div class="app-container">
+
+    <!-- FIXED TOP NAVIGATION BAR (Molten Liquid Glass Architecture) -->
+    <header class="top-navbar">
+      <!-- Official Google 'G' Inline SVG Logo & Re-branded Title -->
+      <div class="brand-section">
+        <div class="google-g-logo-box" title="Google AI Hub">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z"/>
+            <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.15C3.26 21.3 7.31 24 12 24z"/>
+            <path fill="#FBBC05" d="M5.28 14.24c-.25-.72-.38-1.49-.38-2.24s.13-1.52.38-2.24V6.61H1.29C.47 8.24 0 10.06 0 12s.47 3.76 1.29 5.39l3.99-3.15z"/>
+            <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.61l3.99 3.15c.95-2.85 3.6-4.96 6.72-4.96z"/>
+          </svg>
+        </div>
+        <div class="brand-title">
+          Google AI <span class="brand-badge">HUB</span>
+        </div>
+      </div>
+
+      <!-- Main Category Tab Routing Navigation (Scrollable Bar) -->
+      <nav class="nav-tabs-wrapper" aria-label="Google AI Hub Category Navigation">
+        <div class="nav-tabs" id="categoryNavTabs">
+          <!-- Dynamically populated via app.js -->
+        </div>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="nav-actions">
+        <button class="search-trigger-btn" id="searchTriggerBtn" title="Search Hub Nodes (Ctrl+K)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <span>Quick Search</span>
+          <span class="kbd-shortcut">Ctrl+K</span>
+        </button>
+
+        <button class="sidebar-toggle-btn" id="sidebarToggleBtn" aria-label="Toggle Telemetry Sidebar">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- MAIN BODY LAYOUT -->
+    <div class="main-wrapper">
+      
+      <!-- MAIN HUB CONTENT VIEW -->
+      <main class="content-body">
+        
+        <!-- Category Banner -->
+        <div class="category-banner" id="categoryBanner">
+          <div class="banner-info">
+            <h1 id="bannerTitle">Google AI Hub</h1>
+            <p id="bannerDesc">Complete architecture catalog of all 54 Google AI tools across thematic category subparts.</p>
+            <span class="banner-tagline" id="bannerTagline">ENTERPRISE ECOSYSTEM ENGINE</span>
+          </div>
+          <div class="banner-stats">
+            <div class="banner-stat-item">
+              <div class="stat-num" id="bannerNodeCount">54</div>
+              <div class="stat-lbl">Hub Nodes</div>
+            </div>
+            <div class="banner-stat-item">
+              <div class="stat-num" style="color: var(--g-green);">99.98%</div>
+              <div class="stat-lbl">Sync Rate</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Thematic Subparts System Navigation Bar -->
+        <div class="subparts-nav-bar" id="subpartsNavBar">
+          <!-- Dynamically populated via app.js -->
+        </div>
+
+        <!-- Filter & Search Controls Bar -->
+        <div class="controls-bar">
+          <div class="search-input-box">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            <input type="text" id="searchInput" placeholder="Search 54 tools by name, tag, function, or system info..." autocomplete="off">
+          </div>
+          <div class="nodes-counter">
+            Showing <strong id="visibleNodeCount">54</strong> of 54 Nodes
+          </div>
+        </div>
+
+        <!-- Fluid Grid Framework for Streamlined Cards -->
+        <section class="matrix-grid" id="matrixGrid">
+          <!-- Dynamically populated via app.js -->
+        </section>
+
+      </main>
+
+      <!-- PERMANENT RIGHT-HAND TELEMETRY SIDEBAR WIDGET -->
+      <aside class="telemetry-sidebar" id="telemetrySidebar">
+        
+        <div class="telemetry-header">
+          <div class="telemetry-title">
+            <div class="pulse-dot"></div>
+            Hub Telemetry
+          </div>
+          <span style="font-size: 0.7rem; color: var(--g-green); font-family: 'JetBrains Mono', monospace;">v6.4-LIVE</span>
+        </div>
+
+        <div class="telemetry-stat-card">
+          <div class="telemetry-label">System Link</div>
+          <div class="telemetry-value">
+            SECURE // LIVE
+            <span class="status-badge-secure">ONLINE</span>
+          </div>
+        </div>
+
+        <div class="telemetry-stat-card">
+          <div class="telemetry-label">Matrix Sync Rate</div>
+          <div class="telemetry-value" style="color: var(--g-blue);">
+            99.98% ACC
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/></svg>
+          </div>
+        </div>
+
+        <div class="telemetry-stat-card">
+          <div class="telemetry-label">Operational Nodes</div>
+          <div class="telemetry-value">
+            54 Units Loaded
+            <span style="font-size: 0.75rem; color: var(--text-subtle);">7 CATS</span>
+          </div>
+        </div>
+
+        <div class="telemetry-stat-card">
+          <div class="telemetry-label">Datacenter Backplane</div>
+          <div class="telemetry-value" style="color: var(--g-purple);">
+            TPU v6 Liquid
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          </div>
+        </div>
+
+        <div class="canvas-widget">
+          <div class="canvas-title">
+            <span>TPU MATRIX LOAD</span>
+            <span id="tpuLoadText" style="color: var(--g-blue); font-family: 'JetBrains Mono';">42.8%</span>
+          </div>
+          <div class="load-bar-wrapper">
+            <div class="load-bar-fill" id="tpuLoadFill"></div>
+          </div>
+          <canvas id="telemetryCanvas" width="270" height="60" style="width: 100%; height: 60px;"></canvas>
+        </div>
+
+        <div class="sys-log-box" id="sysLogBox">
+          <div class="log-entry"><span class="time">[18:40:00]</span> <span class="ok">SYS_INIT:</span> Google AI Hub booted.</div>
+          <div class="log-entry"><span class="time">[18:40:00]</span> <span class="ok">NODES:</span> 54 Units registered.</div>
+          <div class="log-entry"><span class="time">[18:40:01]</span> <span class="ok">LINK:</span> Quad-Color Mesh active.</div>
+        </div>
+
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- DETAIL SHEET INSPECTOR MODAL WITH DIRECT LAUNCH BUTTON -->
+  <div class="modal-backdrop" id="nodeModalBackdrop" aria-hidden="true">
+    <div class="modal-container" role="dialog" aria-modal="true">
+      <div class="modal-header-strip" id="modalHeaderStrip"></div>
+      <div class="modal-inner">
+        
+        <div class="modal-top-bar">
+          <div class="card-avatar-box">
+            <div class="node-avatar" id="modalAvatar">G</div>
+            <div>
+              <div class="node-title-group">
+                <span class="node-name" id="modalTitle" style="font-size: 1.3rem;">Tool Name</span>
+                <span class="node-subpart-label" id="modalSubpartLabel">Subpart Name</span>
+              </div>
+              <span class="node-tag-pill" id="modalTag" style="margin-top: 0.35rem; display: inline-block;">Tag</span>
+            </div>
+          </div>
+          <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Detail Sheet Modal">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="modal-section-title">Description</div>
+        <div class="modal-text-block" id="modalDesc">
+          Full description text...
+        </div>
+
+        <div class="modal-section-title">Core Functionality</div>
+        <div class="modal-text-block" id="modalFunction" style="border-left: 3px solid var(--g-blue); font-weight: 500;">
+          Full function text...
+        </div>
+
+        <div class="modal-section-title">System Identifier</div>
+        <div class="modal-code-box">
+          <span id="modalSystemInfo">SYSTEM_INFO_CODE</span>
+          <button class="copy-btn" id="copyCodeBtn">Copy Code</button>
+        </div>
+
+        <div class="modal-action-bar">
+          <a class="btn-launch-live" id="modalLaunchBtn" href="#" target="_blank" rel="noopener noreferrer">
+            Launch Tool Live
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+          </a>
+          <button class="btn-secondary" id="modalInspectRawBtn">Test Stream</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Application Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
